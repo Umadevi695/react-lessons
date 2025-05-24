@@ -8,9 +8,10 @@ export default function App2() {
   return (
     <div>
       <h1>This is App2 component</h1>
+      <h2>Working with Arrays and Objects,Applying Styles</h2>
       <div className="App-Product-Container">
         {products.map((value) => (
-          <div className="App-Product-Box" key={value.id}>
+          <div className="App-Product-Box">
             <h3>{value.name}</h3>
             <h4>{value.price}</h4>
             <p>

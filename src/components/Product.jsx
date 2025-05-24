@@ -1,4 +1,4 @@
-export default function Product(props) {
+/*export default function Product(props) {
   const price = props.price + 10000;
   const desc = "This is Product Description";
   return (
@@ -9,4 +9,7 @@ export default function Product(props) {
       <p>{desc}</p>
     </div>
   );
+}*/
+export default function Product() {
+  return <h1>This is Product</h1>;
 }
