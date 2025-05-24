@@ -9,6 +9,7 @@ import App5 from "./components/App5";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import App6 from "./components/App6";
+import App7 from "./components/App7";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/app4" element={<App4 />}></Route>
         <Route path="/app5" element={<App5 />}></Route>
         <Route path="/app6" element={<App6 />} />
+        <Route path="/app7" element={<App7 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
