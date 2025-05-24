@@ -8,6 +8,7 @@ import App4 from "./components/App4";
 import App5 from "./components/App5";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import App6 from "./components/App6";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
