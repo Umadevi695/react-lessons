@@ -15,6 +15,7 @@ import App9 from "./components/App9";
 import App10 from "./components/App10";
 import App11 from "./components/App11";
 import App12 from "./components/App12";
+import App13 from "./components/App13";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/app10" element={<App10 />}></Route>
         <Route path="/app11" element={<App11 />}></Route>
         <Route path="/app12" element={<App12 />}></Route>
+        <Route path="/app13" element={<App13 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
