@@ -22,6 +22,7 @@ import App16 from "./components/App16";
 import App17 from "./components/App17";
 import App18 from "./components/App18";
 import App19 from "./components/App19";
+import App20 from "./components/App20";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -49,6 +50,7 @@ function App() {
         <Route path="/app17" element={<App17 />}></Route>
         <Route path="/app18" element={<App18 />}></Route>
         <Route path="/app19" element={<App19 />}></Route>
+        <Route path="/app20" element={<App20 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
